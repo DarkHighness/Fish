@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NAME OF TASK",
+    "alias": "ALIAS OF TASK",
+    "schedule": "SCHEDULE OF TASK, eg: 1m",
+    "directory": "DIRE PATH OF TASK",
+    "include": "GLOB STYLE PATTERN",
+    "exclude": "GLOB STYLE PATTERN"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "sonic": {
+    "host": "127.0.0.1",
+    "port": 1491,
+    "password": "SecretPassword",
+    "exePath": "./sonic.exe",
+    "cfgPath": "./config.cfg"
+  },
+  "types": [
+    {
+      "name": "docx",
+      "ext": [
+        ".docx"
+      ],
+      "sizeLimit": "20MB"
+    },
+    {
+      "name": "office",
+      "ext": [
+        ".docx",
+        ".pptx",
+        ".xlsx"
+      ],
+      "sizeLimit": "5 MB"
+    },
+    {
+      "name": "pdf",
+      "ext": [
+        ".pdf"
+      ],
+      "sizeLimit": "5 MB"
+    },
+    {
+      "name": "text",
+      "ext": [
+        ".txt",
+        ".md",
+        ".c",
+        ".cpp",
+        ".java",
+        ".py",
+        ".html"
+      ],
+      "sizeLimit": "5 MB"
+    }
+  ],
+  "wordLimit": 2,
+  "initialOffset": 15000,
+  "exclude": [
+    "**/node_modules/",
+    "**/~*.*"
+  ]
+}
